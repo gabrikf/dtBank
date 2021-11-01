@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {darken} from 'polished'
 
-export const Container = styled.div`
+export const Container = styled.form`
 h2 {
     color: var(--text-title);
     font-size: 1.5rem;
@@ -36,6 +36,7 @@ button[type='submit'] {
         border: 0;
         font-size: 1rem;
         margin-top: 1.5rem;
+        font-weight: 600;
 
         transition: filter 0.2s; 
 
