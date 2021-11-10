@@ -15,6 +15,7 @@ seeds(server) {
         id: 1,
         title: 'Frelance de Website',
         type: 'deposit',
+        category: 'Dev',
         amount: 6000,
         createdAt: new Date('2021-02-12 09:00:00')
       },
@@ -22,6 +23,7 @@ seeds(server) {
         id: 2,
         title: 'Cobrança padrão',
         type: 'withdraw',
+        category: 'Casa',
         amount: 1000,
         createdAt: new Date('2021-03-12 09:00:00')
       }
